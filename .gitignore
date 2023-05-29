@@ -1,0 +1,33 @@
+node_modules
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.log
+.orig.
+web-build/
+web-report/
+cucumber-report/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+.husky/__/
+dist/
+
+yarn.lock
+package-lock.json
+
+# Parallel Execution excludes
+cypress/parallel-weights.json
+multi-reporter-config.json
+runner-results/
+
+# macOS
+.DS_Store
+
+.idea
+.env
+.env-production
